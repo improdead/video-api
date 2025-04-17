@@ -15,6 +15,6 @@ services:
       - key: GEMINI_API_KEY
         sync: false
       - key: ELEVENLABS_API_KEY
-        sync: false
+        value: sk_36f5869464efc9e2d89d63404d872bbe775e820619829c05
       - key: ALLOWED_ORIGINS
         value: https://your-intellect-app.vercel.app
