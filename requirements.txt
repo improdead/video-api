@@ -6,10 +6,8 @@ pydantic
 requests
 aiofiles
 httpx
-uuid
 python-jose[cryptography]
 passlib[bcrypt]
-manim
 ffmpeg-python
 google-generativeai
 elevenlabs
