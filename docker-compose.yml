@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  manim-video-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app
+      - ./services:/app/services
+      - ./utils:/app/utils
+      - ./jobs:/app/jobs
+    env_file:
+      - .env
+    restart: unless-stopped

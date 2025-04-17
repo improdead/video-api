@@ -1,0 +1,15 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart
+python-dotenv
+pydantic
+requests
+aiofiles
+httpx
+uuid
+python-jose[cryptography]
+passlib[bcrypt]
+manim
+ffmpeg-python
+google-generativeai
+elevenlabs

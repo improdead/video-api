@@ -1,0 +1,23 @@
+{
+  "name": "manim-video-api",
+  "version": "1.0.0",
+  "description": "API for generating mathematical animations using Manim, Gemini AI, and ElevenLabs",
+  "main": "index.js",
+  "scripts": {
+    "start": "python run.py",
+    "test": "python test_api.py"
+  },
+  "keywords": [
+    "manim",
+    "video",
+    "animation",
+    "ai",
+    "gemini",
+    "elevenlabs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

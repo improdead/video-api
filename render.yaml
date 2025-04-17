@@ -1,0 +1,20 @@
+services:
+  # A Docker web service
+  - type: web
+    name: manim-video-api
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: API_HOST
+        value: 0.0.0.0
+      - key: API_PORT
+        value: 8000
+      - key: DEBUG
+        value: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: https://your-intellect-app.vercel.app
